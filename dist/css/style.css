@@ -1,0 +1,40 @@
+hr {
+  background-color: #ccc;
+  height: 0.2rem;
+  margin-top: -0.2rem;
+}
+
+.h55 {
+  font-size: 1.05rem;
+}
+
+.w-85 {
+  width: 85%;
+}
+
+.w-95 {
+  width: 95%;
+}
+
+.resize {
+  width: auto;
+  height: 75%;
+}
+
+@media (min-width: 1000px) {
+  .myContainer {
+    padding: 0 2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .myContainer {
+    padding: 0 5rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  .myContainer {
+    padding: 0 10rem;
+  }
+}
